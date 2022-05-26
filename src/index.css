@@ -15,11 +15,22 @@ code {
     monospace;
 }
 
-.header-text {
-  color: #606080;
+ 
+
+
+.header-icon {
+  color: brown
+}
+.header-p {
+  color: rgb(61, 61, 240);
   font-weight: 500;
-  margin-top: 7px;
-  font-size: 17px;
+  margin-top: 25px;
+  font-size: 22px;
+  margin-left: 50px;
+}
+.header-p:hover{
+  color: whitesmoke;
+  border-bottom: 1px solid white
 }
 
 .top-left {
@@ -65,6 +76,7 @@ code {
   color: black;
   background-color: whitesmoke;
   opacity: 0.8;
+  border: 2px solid green
 }
 
 .mdb-card {
