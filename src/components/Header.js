@@ -32,7 +32,7 @@ const Header = () => {
   return (
    <MDBNavbar fixed='top' expand='lg' style={{backgroundColor:'black'}}>
        <MDBContainer>
-            <MDBNavbarBrand  href='/' style={{color: 'whitesmoke', fontWeight: '600', fontSize: '35px'}}>
+            <MDBNavbarBrand  style={{color: 'whitesmoke', fontWeight: '600', fontSize: '35px', height: '125px'}}>
                 Rock the Vote
             </MDBNavbarBrand>
         
@@ -61,7 +61,7 @@ const Header = () => {
             {user?.result?._id && (
               <>
                 <MDBNavbarItem>
-                  <MDBNavbarLink href="/addTour">
+                  <MDBNavbarLink href="/addPost">
                     <p className="header-p">Add Post</p>
                   </MDBNavbarLink>
                 </MDBNavbarItem>

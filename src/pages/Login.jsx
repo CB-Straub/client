@@ -53,7 +53,7 @@ const Login = () => {
 
 
   return (
-    <div style={{margin: "auto", padding:'15px', maxWidth:'450px', alignContent:'center', marginTop:'120px' }}>
+    <div style={{margin: "auto", padding:'15px', maxWidth:'450px', alignContent:'center', marginTop:'200px' }}>
         <MDBCard className='mdb-card' alignment="center">
         <MDBIcon fas icon="fas fa-sign-in-alt" className="fa-2x" />
         <h5>Login</h5>

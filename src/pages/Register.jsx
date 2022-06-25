@@ -53,7 +53,7 @@ const Register = () => {
         padding: "15px",
         maxWidth: "450px",
         alignContent: "center",
-        marginTop: "120px",
+        marginTop: "200px",
       }}
     >
       <MDBCard className='mdb-card' alignment="center">

@@ -17,15 +17,18 @@ code {
 
  
 
+.calender-icon {
+  color: "#F48FB1"
 
+}
 .header-icon {
   color: brown
 }
 .header-p {
   color: rgb(61, 61, 240);
   font-weight: 500;
-  margin-top: 25px;
-  font-size: 22px;
+  margin-top: 10px;
+  font-size: 20px;
   margin-left: 50px;
 }
 .header-p:hover{
@@ -44,10 +47,10 @@ code {
 
 .tag-card {
   margin: 10px 0 0 20px;
-  color: #806a78;
+  color: black;
 }
 
-.tourName {
+.postName {
   color: "#F48FB1";
   font-size: 18px;
   margin: 0 0 0 4px;
@@ -78,11 +81,44 @@ code {
   opacity: 0.8;
   border: 2px solid green
 }
-
-.mdb-card {
-  padding-top: 50px;
-  border: 5px solid rgb(67, 65, 65)
+.mt-1 {
+  color: white;
+  background-color: rgb(41, 121, 205);
+  font-size: medium;
 }
+.mt-1:hover {
+  color: black;
+  background-color: whitesmoke;
+  opacity: 0.8;
+  border: 2px solid green
+}
+.mt-3 {
+  color: white;
+  background-color: rgb(156, 62, 62);
+  font-size: medium;
+}
+.mt-3:hover {
+  color: black;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  
+}
+
+.mb-3 {
+   padding-top: 150px;
+}
+.mdb-card {
+  padding-top: 30px;
+  border: 5px solid rgb(36, 33, 33)
+}
+
+
+
 .footer-p {
   color:blueviolet;
+}
+
+.like-btn {
+  margin-top: 15px;
+  color: white
 }
